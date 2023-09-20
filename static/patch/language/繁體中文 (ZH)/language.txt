@@ -1,0 +1,321 @@
+﻿// Translation By BL2CK
+
+[font]
+main = bl2ck.pcf
+language = 0
+
+[start menu]
+Copy = 複製
+Cut = 剪下
+Paste = 貼上
+Delete = 刪除
+Setting = 設定
+Info = 資訊
+Help = 說明
+Tools = 工具
+START = 選單
+
+[message box]
+yes = 是
+no = 否
+ok = 確定
+cancel = 取消
+
+[progress window]
+processing save = 正在處理存檔，請不要關機！
+processing copy = 正在複製檔案，請不要關機，按 %c 取消！
+first use sd = 正在爲第一次使用TF卡做准備...
+gba load = 讀取GBA遊戲
+gba save load = 正在讀取GBA存檔...
+gba save store = 正在處理GBA存檔，請不要關機！
+erase nor = 正在消除NOR記憶體，請不要關機！
+
+[exit os]
+title = 退出內核
+text = 確定需要退出 BL2CK OS 嗎？
+
+[exit safe mode]
+
+title = 詢問
+
+text = 安全模式下不能進行設定操作，確定需要退出該模式？
+
+[copy file error]
+title = 錯誤
+text = 複制文檔時發生錯誤！
+
+[copy file exists]
+title = 注意
+text = 有相同檔名的檔案存在，確定需要覆蓋嗎？
+
+[copy dest is directory]
+title = 錯誤
+text = 有相同名字的目錄存在，不能將檔案複製到這裡！
+
+[move dest is directory]
+title = 錯誤
+text = 有相同名字的目錄存在，不能將檔案搬移到這裡！
+
+[no copy dir]
+title = 錯誤
+text = 不支援複製或剪下一個目錄！
+
+[stop copying file]
+title = 注意
+text = 要停止複製這個檔案嗎？
+
+[confirm delete file]
+title = 注意
+text = 刪除檔案後不能恢復，確定要刪除 「%s」 嗎？
+
+[do not delete directory]
+title = 警告
+text = 該目錄下還有檔案或者目錄，不能直接刪除！
+
+[restore save fail]
+title = 錯誤
+text = 恢複存檔錯誤，要繼續嗎？
+
+[language changed]
+title = 詢問
+text = 改變了系統語言，要現在重啟更換新的語言嗎？選「否」稍後再重啟
+
+[ui style changed]
+title = 詢問
+text = 改變了使用者設定，必須重啟系統才能生效，要現在重啟更換新的設定嗎？選「否」保持當前的設定
+
+[setting window]
+savetype = 功能設定
+rominfo = 文檔信息
+ok = 確定
+cancel = 取消
+confirm = 詢問
+confirm text = 確定需要保存當前的設定嗎？
+close = 關閉
+system = 系統
+interface = 介面
+filesystem = 檔案系統
+gba = GBA
+patches = 功能設定
+
+[save type]
+title = 設定存檔類型
+text = 存檔類型
+Unknown = 未知/自動
+No Save = 沒有存檔
+4K = 4K
+64K = 64K
+512K = 512K
+1M = 1M
+2M = 2M
+4M = 4M
+8M = 8M
+16M = 16M
+32M = 32M
+64M = 64M
+default = 預設
+save slot = 存檔位置
+tab1 = 功能設定
+tab2 = 功能設定
+
+[system setting]
+title = 系統設定
+safe mode = 安全模式
+
+[rom info]
+title = 檔案資訊
+file date = 最後寫入：%d年%d月%d日 %02d:%02d:%02d(GMT)
+file size = 檔案大小：%s
+save type = 存檔類型：%s
+game code = 遊戲代碼：%s
+copy slot = 複製存檔
+
+[disk info]
+total = 磁碟容量：%s
+used = 已用空間：%s
+free = 剩餘空間：%s
+
+[no free space]
+title = 錯誤
+text = 磁盤空間不足，無法完成複制操作！
+
+[folder]
+title = 錯誤
+text = 文件夾數目不能超過1024個！
+
+[unsupported sd]
+title = 不相容的TF卡
+text = 您使用的TF卡(型號:%s) 不適合直接執行DS官方程式，請複製到Acekard內建記憶體中再執行！
+
+[sd card error]
+title = TF卡讀取錯誤
+text = 無法存取TF卡的內容，TF卡可能沒有插好！
+
+[no sd for save]
+title = TF卡上的存檔無法保存
+text = 無法存取TF卡，之前的存檔將被備份到內建記憶體的：%s檔案中！
+
+[no gba card]
+title = 未檢測到擴展卡
+text = SLOT2並沒有插入設備！
+
+[filelist type]
+text = 列表格式
+item0 = NDS圖示
+item1 = NDS和SAV
+item2 = 顯示所有
+
+[rom trim]
+text = 複制裁剪
+item0 = 啓用
+item1 = 禁用
+
+[language]
+text = 系統語言
+ja = 日語
+en = 英語
+fr = 法語
+de = 德語
+it = 意大利語
+es = 西班牙語
+
+[ui style]
+text = 介面風格
+
+[help window]
+title = 幫助資訊
+item0 = %c  選擇遊戲（上/下/翻頁）
+item1 = %c  開始/確定/是
+item2 = %c  後退/取消/否
+item3 = %c  查詢檔案資訊 / 選擇存檔類型
+item4 = %c  退出內核 / NAND記憶體
+item5 = %c  返回上一級目錄
+item6 = %c  調節亮度（四級亮度調節）
+item7 = %s  開始選單
+item8 = %s  列表模式/經典模式
+
+[exp window]
+title = 擴展卡設定
+button = EZ3合1
+ram = RAM
+sram = sRAM
+off =關閉
+low = 低檔
+mid = 中檔
+high = 高檔
+strength = 震動等級
+flash to nor = 閃存到NOR
+copy to psram = 複制到PSRAM
+
+[abort save]
+title = 詢問
+text = 確定需要取消存檔操作？
+
+[gba warn]
+title = GBA遊戲錯誤
+text = 不支援大於32MB的GBA遊戲！
+
+[patches]
+download play = 提升單卡聯機相容性
+cheating system = 金手指
+reset in game = 暖複位
+dma = DMA模式
+protection = 反制燒錄保護
+linkage = GBA聯動
+sd save = 直接存儲至SD卡
+reset hotkey = 複位熱鍵
+homebrew reset = 內核複位
+
+[switches]
+Enable = 開啟
+Disable = 關閉
+Global = 全體(%s)
+
+[ram allocation]
+title = 錯誤
+memory allocation error = 記憶體配置錯誤
+
+[scrolling]
+fast = 快速
+medium = 中速
+slow = 低速
+
+[file settings]
+title = 系統設定
+show hidden files = 顯示隱藏檔案
+save extension = 存檔副檔名
+
+[interface settings]
+title = 系統設定
+scrolling speed = 捲動速度
+filelist style = 列表格式
+oldschool = 傳統
+modern = 圖示
+internal = 遊戲標題
+small = 小圖示
+animation = 動畫圖示
+12 hour = 12小時制
+
+[gba settings]
+title = 功能設定
+sleephack = 通用休眠
+autosave = 備份存檔
+mode = SOLT2模式
+modegba = GBA模式
+modends = NDS模式
+modeask = ASK模式
+modetext = 確定在SOLT-2接口啓用NDS模式？
+
+[sd save]
+title = 不相容的TF卡
+text = 您使用的TF卡(型號:%s) 不適合直接執行DS官方程式，請複製到Acekard內建記憶體中再執行！
+
+[icon]
+icon = 圖示模式
+transparent = 邊框透明
+as is = 原圖示
+firmware = 固件圖示
+
+[cheats]
+title = 金手指
+info = 信息
+deselect = 全部複位
+
+[saveslot]
+title = 存檔管理
+confirm = 確定需要複制存檔到此處？
+target slot = 複制存檔位置
+
+[mainlist]
+flash memory = Flash Memory
+microsd card = 閃存體
+slot2 card = 擴展卡
+favorites = 收藏檔
+
+[hotkeys]
+l-r-a-b-↓ = l-r-a-b-↓
+l-r-b-y-↓ = l-r-b-y-↓
+l-r-a-b-x-y = l-r-a-b-x-y
+b-y-touch = b-y-touch
+start-r-touch = start-r-touch
+
+[updater]
+update = 升級內核
+update ? = 確定需要升級內核嗎？
+updater = 升級模塊
+menu = 內核模塊
+savesize.bin = 存檔模塊
+cheats = 金手指模塊
+connecting = 連接中
+failed = 失敗
+updated = 升級中
+fresh = 准備升級
+stop = 確定需要停止升級嗎？
+download = 已下載 %d B
+unpack = 解壓中
+
+[crc32]
+crc32 = CRC32校驗
+calculation = 正在處理CRC32...
+
+[end]
